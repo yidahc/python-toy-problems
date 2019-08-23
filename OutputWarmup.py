@@ -20,5 +20,7 @@ Enter another integer: 5
 4 * 5 is 20 """
 
 userNum = int(input('Enter integer: '))
-
 print('You entered:', userNum)
+
+print(userNum, 'squared is', userNum * userNum,)
+print('And', userNum, 'cubed is', userNum * userNum * userNum, '!!')
