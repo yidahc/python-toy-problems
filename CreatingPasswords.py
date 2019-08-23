@@ -43,7 +43,13 @@ favoriteColor = input('Enter favorite color: \n')
 petsName = input('Enter pet\'s name: \n')
 num = input('Enter a number: \n')
 
-print (favoriteColor, petsName, num)
+print ('\n'+favoriteColor, petsName, num)
 
-print ('First password: '+favoriteColor+'_'+petsName)
-print ('Second password: '+num+favoriteColor+num)
+pswd1 = favoriteColor+'_'+petsName
+print ('\nFirst password: ' + pswd1)
+
+pswd2 = num+favoriteColor+num
+print ('Second password: ' + pswd2)
+
+print('\nNumber of characters in',pswd1+':',len(pswd1))
+print('Number of characters in',pswd2+':',len(pswd2))
