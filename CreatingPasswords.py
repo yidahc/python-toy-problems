@@ -44,3 +44,6 @@ petsName = input('Enter pet\'s name: \n')
 num = input('Enter a number: \n')
 
 print (favoriteColor, petsName, num)
+
+print ('First password: '+favoriteColor+'_'+petsName)
+print ('Second password: '+num+favoriteColor+num)
